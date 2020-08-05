@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="API Test Suite" data-provider-thread-count="20" verbose="2" >
+
+  <test name="API Test" >
+    <classes>
+	    <class name="com.comparator.qa.api.ReqResAPITest"/>
+    </classes>
+  </test>
+  
+</suite>
